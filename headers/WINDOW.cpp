@@ -10,7 +10,7 @@ bool  WINDOW :: LoadTexture ( SDL_Texture *texture, int x, int y, int w, int h )
     aux.x = x;
     aux.y = y;
 
-    SDL_RenderCopy( _render, texture, &aux, &aux );
+    SDL_RenderCopy( _render, texture, NULL, &aux );
 
 }
 

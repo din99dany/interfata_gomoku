@@ -2,7 +2,15 @@
 #include <cstring>
 using namespace std;
 
+SDL_Texture* PIESA :: RenderObject( SDL_Renderer *_render )  {
+        SDL_Surface *aux = SDL_LoadBMP( SurfacePath );
 
+        if ( aux == NULL  ) {
+            cout << "Fail to load surface for piesa.\n";
+            return NULL;
+        }
+        return SDL_CreateTextureFromSurface( _render, aux );
+    }
 
 PIESA :: PIESA ( int x, int y, int wh, const char * str ) {
 

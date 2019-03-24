@@ -3,11 +3,14 @@
 #include <SDL.h>
 #include <string>
 #include <iostream>
-#include <cstring>>
+#include <cstring>
+#include "RENDER.h"
 using namespace std;
 
-class PIESA {
+class PIESA : public RENDER {
 public:
+
+    SDL_Texture* RenderObject( SDL_Renderer *_render );
 
     PIESA ( const PIESA &ob ) {
         _x = ob._x;
@@ -18,6 +21,10 @@ public:
 
     ~PIESA(){
 
+    }
+
+    friend bool ComparePiese( PIESA* piesa1, PIESA *piesa2 ) {
+        return strcmp( (*piesa1).SurfacePath, (*piesa2).SurfacePath );
     }
 
     PIESA( int x, int y, int wh, const char * str );

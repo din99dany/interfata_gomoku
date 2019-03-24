@@ -37,10 +37,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="../headers/BOARD.h" />
+		<Unit filename="../headers/CLICK_ACTION.h" />
 		<Unit filename="../headers/GAME.cpp" />
 		<Unit filename="../headers/GAME.h" />
+		<Unit filename="../headers/GAMEMANAGER.h" />
+		<Unit filename="../headers/GAMEZONE.H" />
+		<Unit filename="../headers/GAMEZONE.cpp" />
+		<Unit filename="../headers/MENU.h" />
 		<Unit filename="../headers/PIESA.cpp" />
 		<Unit filename="../headers/PIESA.h" />
+		<Unit filename="../headers/RENDER.h" />
 		<Unit filename="../headers/UTIL.h" />
 		<Unit filename="../headers/WINDOW.cpp" />
 		<Unit filename="Interfata.cbp" />

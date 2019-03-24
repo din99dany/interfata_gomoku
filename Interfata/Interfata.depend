@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1552826985 source:c:\users\daniel\desktop\gomoku\interfata\main.cpp
+1553453191 source:c:\users\daniel\desktop\gomoku\interfata\main.cpp
 	<iostream>
 	<SDL.h>
 	"../headers/GAME.h"
@@ -692,27 +692,30 @@
 	"begin_code.h"
 	"close_code.h"
 
-1552744675 source:c:\users\daniel\desktop\gomoku\headers\window.cpp
+1553338323 source:c:\users\daniel\desktop\gomoku\headers\window.cpp
 	"WINDOW.H"
 
-1552813898 c:\users\daniel\desktop\gomoku\headers\piesa.h
+1553166369 c:\users\daniel\desktop\gomoku\headers\piesa.h
 	<SDL.h>
 	<string>
 	<iostream>
 	<cstring>
+	"RENDER.h"
 
-1552760912 source:c:\users\daniel\desktop\gomoku\headers\piesa.cpp
+1553159945 source:c:\users\daniel\desktop\gomoku\headers\piesa.cpp
 	"PIESA.h"
 	<cstring>
 
-1552826654 source:c:\users\daniel\desktop\gomoku\headers\game.cpp
+1553453028 source:c:\users\daniel\desktop\gomoku\headers\game.cpp
 	"GAME.h"
 	<cmath>
 
-1552826128 c:\users\daniel\desktop\gomoku\headers\game.h
+1553339571 c:\users\daniel\desktop\gomoku\headers\game.h
 	"WINDOW.h"
 	"PIESA.h"
-	"UTIL.h"
+	"MENU.h"
+	"GAMEMANAGER.h"
+	"GAMEZONE.H"
 	<SDL.h>
 	<vector>
 	<iostream>
@@ -732,4 +735,40 @@
 	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
+
+1553159876 c:\users\daniel\desktop\gomoku\headers\render.h
+	<SDL.h>
+
+1553339065 c:\users\daniel\desktop\gomoku\headers\gamemanager.h
+	"RENDER.h"
+	"CLICK_ACTION.h"
+	<queue>
+	<SDL.h>
+
+1553285427 c:\users\daniel\desktop\gomoku\headers\menu.h
+	<cstring>
+	"RENDER.h"
+	"GAMEMANAGER.h"
+
+1553450462 c:\users\daniel\desktop\gomoku\headers\board.h
+	<cstring>
+	<SDL.h>
+	"PIESA.h"
+	"CLICK_ACTION.h"
+	"RENDER.h"
+
+1553283798 c:\users\daniel\desktop\gomoku\headers\click_action.h
+
+1553452260 source:c:\users\daniel\desktop\gomoku\headers\gamezone.cpp
+	"GAMEZONE.H"
+	<cmath>
+
+1553451723 c:\users\daniel\desktop\gomoku\headers\gamezone.h
+	<cmath>
+	<vector>
+	<SDL.h>
+	<iostream>
+	"GAMEMANAGER.h"
+	"BOARD.h"
+	"PIESA.h"
 

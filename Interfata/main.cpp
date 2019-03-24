@@ -9,7 +9,7 @@ int main(int argv, char** args)
 {
 
 
-    GAME test( 800, 800, 200, "../TABLA.BMP", 21, "../PIESA-NEAGRA.bmp", "../PIESA-ALBA.bmp", "../BUFFER.bmp" );
+    GAME test( 750, 750, 200, "../TABLA.bmp", 20, "../PIESA-NEAGRA.bmp", "../PIESA-ALBA.bmp", "../BUFFER.bmp" );
     test.RunGame();
 
     return 0;
